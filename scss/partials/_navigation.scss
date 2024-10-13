@@ -14,10 +14,6 @@
   }
 
   ul > li > ul li {
-    // Annuler les styles pour les sous-éléments de liste
-    &:before {
-      content: "•";
-      padding-right: 5px;
-    }
+    color: $secondary_color;
   }
 }
