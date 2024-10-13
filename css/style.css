@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+*/
+#header {
+  border: 2px solid #FF7B00;
+  margin: 0.5em 0.5em;
+}
+#header #main_header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+#header #logo {
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+#header #logo img {
+  width: 200px;
+  height: auto;
+}
+#header a {
+  color: #000;
+  text-decoration: none;
+}
+#header #socials ul {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+#header #socials li a img {
+  width: 25px;
+  height: auto;
+}
+#header p {
+  margin: 2em 0;
+}
+
+/*
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+*/
+.navbar {
+  color: #FF7B00;
+}
+.navbar h2 {
+  font-size: 2em;
+}
+.navbar ul > li {
+  color: #FF7B00;
+}
+.navbar ul > li > ul li:before {
+  content: "•";
+  padding-right: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

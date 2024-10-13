@@ -1,0 +1,49 @@
+@import "config";
+
+#header{
+  border: 2px solid $primary_color;
+  margin: 0.5em 0.5em;
+  #main_header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo{
+    align-items: center;
+    display: flex;
+    gap: 1em;
+    img{
+      width: 200px;
+      height: auto;
+    }
+  }
+
+  a{
+    color: $secondary_color;
+    text-decoration: none;
+  }
+
+  #socials{
+
+    ul{
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      list-style-type: none;
+    }
+    li a img{
+      width: 25px;
+      height: auto;
+    }
+  }
+  p{
+    margin: 2em 0;
+  }
+}
+
+
+
+
+

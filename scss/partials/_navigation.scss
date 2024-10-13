@@ -1,0 +1,23 @@
+@import "config";
+
+//2column layout
+.navbar{
+  color: $primary_color;
+
+  h2{
+    font-size: 2em;
+  }
+
+  ul > li {
+    // Styles pour les éléments de premier niveau
+    color: $primary_color;
+  }
+
+  ul > li > ul li {
+    // Annuler les styles pour les sous-éléments de liste
+    &:before {
+      content: "•";
+      padding-right: 5px;
+    }
+  }
+}
